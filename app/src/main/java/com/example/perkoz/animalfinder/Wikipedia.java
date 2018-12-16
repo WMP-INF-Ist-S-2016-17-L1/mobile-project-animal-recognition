@@ -47,7 +47,7 @@ public class Wikipedia extends AppCompatActivity {
     // -------------------- wiki --------------------
     public void volleyJsonObjectRequest(String url) {
 
-        String REQUEST_TAG = " com.androidtutorialpoint.volleyJsonObjectRequest";
+        String REQUEST_TAG = "volleyJsonObjectRequest";
 
         JsonObjectRequest jsonObjectReq = new JsonObjectRequest(url, null,
                 new Response.Listener<JSONObject>() {
